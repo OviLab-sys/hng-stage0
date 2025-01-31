@@ -10,7 +10,7 @@ from django.views.decorators.http import require_GET
 def hng_public_api(request):
     response_data = {
         "email": "victoroduorr@gmail.com",  # Your email
-        "current_datetime": now().replace(microsecond=0).isoformat() + "Z", 
-        "github_url": "https://github.com/OviLab-sys/hng-stage0"  
+        "current_datetime": now().replace(microsecond=0).isoformat() + "Z",
+        "github_url": "https://github.com/OviLab-sys/hng-stage0"
     }
     return JsonResponse(response_data)
