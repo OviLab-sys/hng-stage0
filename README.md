@@ -14,7 +14,7 @@ This API is built using Django and is deployed on Render.
 
 Technology Stack
 
-Programming Language: Python
+Programming Language: Python: https://hng.tech/hire/python-developers
 
 Framework: Django
 
